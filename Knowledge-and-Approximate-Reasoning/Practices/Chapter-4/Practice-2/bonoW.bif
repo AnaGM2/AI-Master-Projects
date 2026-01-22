@@ -1,0 +1,47 @@
+network unknown {
+}
+variable Bono {
+    type discrete [ 2 ] { alto, bajo };
+    property weight = None ;
+}
+variable Consumo {
+    type discrete [ 2 ] { alto, bajo };
+    property weight = None ;
+}
+variable Iluminacion {
+    type discrete [ 2 ] { si, no };
+    property weight = None ;
+}
+variable PlacasSolares {
+    type discrete [ 2 ] { si, no };
+    property weight = None ;
+}
+variable Ventanas {
+    type discrete [ 2 ] { si, no };
+    property weight = None ;
+}
+probability ( Bono | Consumo ) {
+    ( alto ) 0.2, 0.8;
+    ( bajo ) 0.7, 0.3;
+
+}
+probability ( Consumo | Ventanas, Iluminacion, PlacasSolares ) {
+    ( si, si, si ) 0.2, 0.8;
+    ( si, si, no ) 0.25, 0.75;
+    ( si, no, si ) 0.4, 0.6;
+    ( si, no, no ) 0.55, 0.45;
+    ( no, si, si ) 0.3, 0.7;
+    ( no, si, no ) 0.65, 0.35;
+    ( no, no, si ) 0.45, 0.55;
+    ( no, no, no ) 0.95, 0.05;
+
+}
+probability ( Iluminacion ) {
+    table 0.9, 0.1 ;
+}
+probability ( PlacasSolares ) {
+    table 0.2, 0.8 ;
+}
+probability ( Ventanas ) {
+    table 0.4, 0.6 ;
+}
