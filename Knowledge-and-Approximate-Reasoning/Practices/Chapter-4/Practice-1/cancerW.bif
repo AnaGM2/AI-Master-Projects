@@ -1,0 +1,45 @@
+network unknown {
+}
+variable Cancer {
+    type discrete [ 2 ] { verdad, falso };
+    property weight = None ;
+}
+variable Disnea {
+    type discrete [ 2 ] { verdad, falso };
+    property weight = None ;
+}
+variable Fumador {
+    type discrete [ 2 ] { verdad, falso };
+    property weight = None ;
+}
+variable Polucion {
+    type discrete [ 2 ] { baja, alta };
+    property weight = None ;
+}
+variable Radiografia {
+    type discrete [ 2 ] { positiva, negativa };
+    property weight = None ;
+}
+probability ( Cancer | Polucion, Fumador ) {
+    ( baja, verdad ) 0.03, 0.97;
+    ( baja, falso ) 0.001, 0.999;
+    ( alta, verdad ) 0.05, 0.95;
+    ( alta, falso ) 0.02, 0.98;
+
+}
+probability ( Disnea | Cancer ) {
+    ( verdad ) 0.65, 0.35;
+    ( falso ) 0.3, 0.7;
+
+}
+probability ( Fumador ) {
+    table 0.3, 0.7 ;
+}
+probability ( Polucion ) {
+    table 0.9, 0.1 ;
+}
+probability ( Radiografia | Cancer ) {
+    ( verdad ) 0.9, 0.1;
+    ( falso ) 0.2, 0.8;
+
+}
