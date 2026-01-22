@@ -1,0 +1,47 @@
+
+---INFO---
+T-norm for f1 to build tree    Product
+T-norm for f2 to build tree    Minimum
+T-norm for f1 used in inference Minimum
+T-norm for f2 used in inference Minimum
+Method of inference            Set-based
+Method used to resolve internal conflicts best leaf
+Method used to resolve external conflicts Inference 3
+Stretch domain for delta for set inferences? No
+Number of events               4
+Number of attributes           18
+Number of decisions            2
+IN to stop expansion           0.200
+PN to stop expansion           1.000
+Gain to stop expansion of var  0.100
+minInfPN                       0.200
+minInfPkNQt                    0.000
+minInfPKappaNQt                0.000
+Fuzzify unrecognized event     Yes, degree=1
+Fuzzify level to start at      0
+Reduce gain for larger domains No
+Use file test.dat for testing
+Save testing results to file inference_results.file
+No Chi-squared test
+Rchi=4.00
+Not printing tree
+Not using spreadsheet file
+Randomize the random seed? yes
+CF                             0.000
+K                              0.500
+----------
+
+Example Tmed    Hrmed   Radmed  Radacu  Vvmed   Dvmed   Prec    Dewpt   Dpv     Tmedm   Hrmedm  Radmedm Radacum Vvmedm  Dvmedm  Precm   Dewptm  Dpvm    ||  Decision  Actual    
+x0      -1.000  -1.000  -1.000  -1.000  0.126   0.788   -1.000  -1.000  -1.000  0.500   -1.000  0.000   -1.000  -1.000  -1.000  -1.000  0.765   -1.000  ||  NOFRO     NOFRO       
+x1      -1.000  -1.000  -1.000  -1.000  0.126   0.788   -1.000  -1.000  -1.000  0.200   -1.000  0.001   -1.000  -1.000  -1.000  -1.000  0.765   -1.000  ||  FROST     FROST       
+x2      -1.000  -1.000  -1.000  -1.000  0.700   0.788   -1.000  -1.000  -1.000  0.200   -1.000  0.200   -1.000  -1.000  -1.000  -1.000  0.765   -1.000  ||  NOFRO     NOFRO       
+x3      -1.000  -1.000  -1.000  -1.000  0.700   0.788   -1.000  -1.000  -1.000  0.400   -1.000  0.000   -1.000  -1.000  -1.000  -1.000  0.500   -1.000  ||  NOFRO     NOFRO       
+
+STATISTICS
+NumTestingEvents=4
+Unclassified=0
+Classified=4
+	Correct=4
+	Incorrect=0
+	NumWithoutDecision=0
+	PercentCorrect=100.00
