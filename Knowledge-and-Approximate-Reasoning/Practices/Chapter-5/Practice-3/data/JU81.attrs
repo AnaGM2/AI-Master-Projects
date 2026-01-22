@@ -1,0 +1,24 @@
+18
+Tmed 1 -1 0 1 1 3
+Hrmed 1 -1 0 1 1 3
+Radmed 1 -1 0 1 1 3
+Radacu 1 -1 0 1 1 3
+Vvmed 1 -1 0 1 1 3
+Dvmed 1 -1 0 1 1 3
+Prec 1 -1 0 1 1 3
+Dewpt 1 -1 0 1 1 3
+Dpv 1 -1 0 1 1 3
+Tmedm 1 -1 0 1 1 3
+Hrmedm 1 -1 0 1 1 3
+Radmedm 1 -1 0 1 1 3
+Radacum 1 -1 0 1 1 3
+Vvmedm 1 -1 0 1 1 3
+Dvmedm 1 -1 0 1 1 3
+Precm 1 -1 0 1 1 3
+Dewptm 1 -1 0 1 1 3
+Dpvm 1 -1 0 1 1 3
+
+0 2
+NOFRO
+FROST
+	
