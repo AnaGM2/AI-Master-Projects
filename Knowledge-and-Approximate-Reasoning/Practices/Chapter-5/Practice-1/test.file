@@ -1,0 +1,53 @@
+
+---INFO---
+T-norm for f1 to build tree    Product
+T-norm for f2 to build tree    Minimum
+T-norm for f1 used in inference Minimum
+T-norm for f2 used in inference Minimum
+Method of inference            Set-based
+Method used to resolve internal conflicts best leaf
+Method used to resolve external conflicts Inference 1
+Stretch domain for delta for set inferences? No
+Number of events               6
+Number of attributes           2
+Number of decisions            2
+IN to stop expansion           0.200
+PN to stop expansion           1.000
+Gain to stop expansion of var  0.100
+minInfPN                       0.200
+minInfPkNQt                    0.000
+minInfPKappaNQt                0.000
+Fuzzify unrecognized event     Yes, degree=1
+Fuzzify level to start at      0
+Reduce gain for larger domains No
+Use file data.dat for testing
+Save testing results to file test.file
+No Chi-squared test
+Rchi=4.00
+Print long tree
+Print tree to file: tree.file
+Not using spreadsheet file
+Randomize the random seed? yes
+CF                             0.000
+K                              0.500
+----------
+
+Example X       Size    ||  Yes     No      Delta:Best   Actual    Class     Error
+x0      A       0.000   ||  1.000   0.778   0.389:Yes    0.000     Yes       -0.389
+x1      -1.000  0.400   ||  1.000   1.000   0.500:Yes    0.000     Yes       -0.500
+x2      A       0.800   ||  1.000   0.778   0.389:Yes    0.000     Yes       -0.389
+x3      B       0.500   ||  0.778   1.000   0.611:No     1.000     No         0.389
+x4      -1.000  0.500   ||  1.000   1.000   0.500:Yes    No        N/A     * 
+x5      B       Large   ||  0.778   1.000   0.611:No     No        N/A       
+
+* Denotes examples which were classified incorrectly.
+  Error follows if decision is a numerical value
+
+STATISTICS
+NumTestingEvents=6
+Unclassified=0
+Classified=6
+	Correct=5
+	Incorrect=1
+	NumWithoutDecision=0
+	PercentCorrect=83.33

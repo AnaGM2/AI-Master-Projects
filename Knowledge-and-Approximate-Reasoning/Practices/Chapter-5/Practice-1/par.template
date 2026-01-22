@@ -1,0 +1,182 @@
+#Format of Parameter File  
+#FID 3.4
+
+#Anything after a # is considered a comment and ignored to end of line. Blank 
+#lines are ignored. Order is important and no parameters may be left out.
+
+#T-norm to use for f1 when building tree 
+#choices are minimum, product, bounded product, drastic product, and best.
+#these choices are also used for f2Build, f1Inf, and f2Inf.
+#best means the t-norm resulting in the highest information gain will be
+#chosen for each node that will be split. NOTE: it is suggested dprod not be 
+#used for inferences unless fuzzy sets overlap so that membership is always 1 
+#somewhere
+f1Build			prod	#[min | prod | bprod | dprod | best]
+
+#T-norm used for f2 when building tree	
+f2Build			min	#[min | prod | bprod | dprod | best]
+
+#T-norm used in f1 for inference	
+f1Inf			prod	#[min | prod | bprod | dprod | best]
+
+#T-norm used in f2 for inference	
+f2Inf			min	#[min | prod | bprod | dprod | best]
+
+#Inference method to use
+#choices are set-based and example-based
+infKind			set	#[set | example]
+
+#method to resolve internal conflicts 
+
+#The valid options for InternalConflict depend upon which inference method is 
+#chosen and which external conflict is used
+#internal conflict methods for set based are: all (use all leaves), best(use 
+#majority class), cg (center of gravity), mcg (max center gravity)
+#inference methods for example based are: all(use all leaves), best (use 
+#majority class), maxx(use example with highest membership in leaf),maxxk(use 
+#example with highest combined membership in leaf and decision class)
+InternalConflict			best	#[best | cg | mcg | all | maxx | maxxk]
+
+#method to resolve external conflicts 
+#(meaning depends on which inference chosen above)
+#maximum value allowed for set-based inference is 3, 
+#maximum value allowed for example-based inference is 2
+ExternalConflict			0	#[0 | 1 | 2 | 3]
+
+#options specifying weights to use in particular inferences
+#the following 5 options are all boolean values
+
+#used in set-based inferences involving internal best/external 0 and external 1
+#used in example based inferences involving external 0/internal maxx and maxxg
+usePkL 			0	#[0 | 1]
+
+#used in set-based inferences with external 0/internal cg and mcg and external 1
+#used in example-based inferences with external 0/internal maxx and maxxg
+usePL 			0	#[0 | 1]
+
+#used in set-based inferences with external 0/internal best and cg
+useArea 			0	#[0 | 1]
+
+#used in set-based inferences with external 1
+useRatio 			0	#[0 | 1]
+
+#used in example-based inferences with external 0/internal all and best
+useWeight 			0	#[0 | 1]
+
+#stretch domain for delta to use in set inferences
+stretchSetDelta			0	#[0 | 1]
+
+#Degree of fuzzification fon unrecognized events
+#0 is no fuzzification,
+#1 means fuzzification is only performed for linear values
+#2 means all values are fuzzified
+
+fuzStopLevel			1        #[0 | 1 | 2]
+
+#fuzStartLevel to start with
+fuzStartLevel			0	 #[0 | 1 | 2]
+
+#Use IV method to reduce gain for large domains
+iv			0	#[0 | 1]
+
+#Information content at which expansion should be stopped 
+minBuildIN			0.2	#[0..1]
+
+#Minimal event count at which expansion should be stopped 
+minBuildPN			1	#[>= 0]
+
+#Minimal gain level at which attribute will not be used for expansion
+minGain			0.1	#[0..1]
+
+#Minimal event count  
+minInfPN			0.2	#[> 0]
+
+#Minimal ratio of PkN/PN in a leaf to be used in inferences
+#not using the majority decision in the leaf
+#0 indicates all values are used, 1 indicates only those above average
+minInfPkNQt			0	#[0..1]
+
+#Minimal ratio of PkN/PN in a leaf to be used in inferences
+#using the majority decision in the leaf
+#0 indicates each best decision is used, 1 indicates only those best decision
+#takin ALL examples in the leaf is used
+minInfPKappaNQt			0	#[0..1]
+
+#Chi-square test. Specify 0 if no test should be performed, otherwise indicate 
+#signifcance level of test
+#Significance levels: 1=0.1, 2=0.05, 3=0.025, 4=0.01 (2 is suggested)
+chi			0	#[0..4]
+
+#Used to determine if Chi-squared test is unreliable. If PhatkNp is
+#greater than or equal to Rchi, for any k,p, then it is unreliable
+Rchi			4.0     	#any value, but 4 is recommended
+
+#Randomize the random seed
+random			1       	#[0 | 1]
+
+#Print tree? 
+tree		short	#[none | short | long]
+
+#Output file for tree
+#not printed if none chosen above
+treeOut			tree.file	
+
+#Perform testing using events from a file? 
+# (0=interactive testing, otherwise specify name of file)
+testIn			data.dat	#[0 | filename]
+
+#Output file for testing. If interactive testing was chosen above, then output
+#will go to stdout and this paramter will be ignored
+testOut			test.file	#[filename]
+
+#Spreadsheet filename--this option is provided in case the user wants output
+#written to a file which can be used in spreadsheet software
+#specify 0 if this option should not be used
+spread			0	#[0 | filename]
+
+#discretization type 
+discretType			0	#[0 top-down,1 bottom-up]
+
+#parameters for bottom-up discretization
+
+#clusterStop - used in bottom-up discretization to control
+#level of clustering before forming fuzzy sets
+clusterStop			0.2
+
+#mergeStop - used in bottom-up discretization to control
+#level of merging of fuzzy sets
+mergeStop		0.05
+#CF - pruning coefficient
+#The higher value, the more tree is pruned 
+CF	0	 #[0..1]
+#K - coefficient used to build tree
+#K coefficient decides how fuzzy terms cross each other
+#K is used when fuzzy variable must be partitioned
+K				0.5   	#[0..1) K cannot be 1
+
+
+# Stop noise and missing value inducer after being run on training data
+stopAfterInducer	    0      #[0 no; 1 yes]
+
+# Simulate random noise in data
+    # 0: do not add noise
+    # 1: add noise only to training data
+    # 2: add noise only to testing data
+    # 3: add noise to both
+addNoise            0 
+# specify whether to add noise to linear only, nominal only, or both types of attributes 
+addNoiseToAttr      0       #[0 linear only; 1 nominal only; 2 both]
+# specify the probability of adding noise to a given event 
+addNoiseProb        1.0     #[0..1]
+# specify the percent noise to add
+addNoiseAmount      0.1     #[0..1]
+
+# Simulate randomly missing values in data
+    # 0: do not remove values 
+    # 1: remove values only from training data
+    # 2: remove values only from testing data
+    # 3: remove values from both
+missingValue        0
+# specify the probability of an event value being removed
+missingValueProb    0       #[0..1]
+

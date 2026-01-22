@@ -1,0 +1,53 @@
+
+---INFO---
+T-norm for f1 to build tree    Product
+T-norm for f2 to build tree    Minimum
+T-norm for f1 used in inference Minimum
+T-norm for f2 used in inference Minimum
+Method of inference            Set-based
+Method used to resolve internal conflicts best leaf
+Method used to resolve external conflicts Inference 1
+Stretch domain for delta for set inferences? No
+Number of events               6
+Number of attributes           2
+Number of decisions            2
+IN to stop expansion           0.200
+PN to stop expansion           1.000
+Gain to stop expansion of var  0.100
+minInfPN                       0.200
+minInfPkNQt                    0.000
+minInfPKappaNQt                0.000
+Fuzzify unrecognized event     Yes, degree=1
+Fuzzify level to start at      0
+Reduce gain for larger domains No
+Use file data.dat for testing
+Save testing results to file test.file
+No Chi-squared test
+Rchi=4.00
+Print long tree
+Print tree to file: tree.file
+Not using spreadsheet file
+Randomize the random seed? yes
+CF                             0.000
+K                              0.500
+----------
+
+Printing long tree
+Stopping criteria: minIN=0.2 minBuildPN=1.0 minGain=0.1
+
+---TREE : T-norm is Product
+[] : IN=0.95 PN=8.00 : Yes=5.00 No=3.00 
+Wghts:     0     1     2     3     4     5     6     7     8     9 
+    0: 1.000 1.000 1.000 1.000 1.000 1.000 
+   [X=A] : IN=0.59 PN=3.50 : Yes=3.00 No=0.50 
+   RS=0.389 rs=1.000  bestDec=0
+   Wghts:     0     1     2     3     4     5     6     7     8     9 
+       0: 1.000 0.500 1.000 0.000 0.500 0.000 
+   [X=B] : IN=0.99 PN=4.50 : Yes=2.00 No=2.50 
+   RS=0.611 rs=1.000  bestDec=1
+   Wghts:     0     1     2     3     4     5     6     7     8     9 
+       0: 0.000 0.500 0.000 1.000 0.500 1.000 
+----------
+Total_Leaves=2
+----------
+
