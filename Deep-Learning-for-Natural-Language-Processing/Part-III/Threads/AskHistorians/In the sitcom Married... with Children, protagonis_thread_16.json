@@ -1,0 +1,130 @@
+{
+    "flair": "No Flair",
+    "title": "In the sitcom Married... with Children, protagonist Al Bundy is able to support himself, his homemaker wife, and two children on the income he earns as a shoe salesman in a strip mall in the suburbs of Chicago. Was this at all realistic for the late 1980s/early 1990s?",
+    "author": "OffsidesLikeWorf",
+    "score": 13858,
+    "date": 1589062649.0,
+    "description": "I'm not entirely sure if it's relevant, but the show posits that Bundy did once score four touchdowns in a single football game while in high school, which may have affected his earning potential.",
+    "comments": [
+        {
+            "author": "BullsLawDan",
+            "body": "Wow! I can finally provide some help with a question on /r/AskHistorians as a lawyer who does some labor, employment, and wage work, and as a big fan of the show. I can at least give some background on what we know about the show and about the wages Al earned while joking with Griff and [taking jabs at the rotund customers.](https://www.youtube.com/watch?v=IRCHBi0DRFg&t=126s)\n\nLet's rock:\n\nSome basics on this for those who don't know: The show ran from 1987 to 1997 on Fox, and was (along with The Simpsons) the first hit for the fledgling network.\n\nFirst, the income analysis. We can look at this in two ways: How much did shoe salesmen earn around that time, and how much Al Bundy actually earned.\n\nWe actually know a great deal about how much Al earned. Al earned a base salary plus commission at the store. We know from \"My Mom, the Mom\" (S03E12) Al earns that way, because he states he earns a 10% commission on each sale. I would say this really tells us how great of a salesman he is, considering how many customers he can insult and still earn those bonuses. \n\nEven better, we actually know Al's base salary! In ['Tis Time to Smell the Roses, S07E23](https://www.imdb.com/title/tt0642200/plotsummary?ref_=tt_ov_pl), Al is offered \"a year's salary\" for an early retirement. How much? $12,000. At 40 hours a week that breaks down to about $5.77/hour. Or $231/week. Of course, Peg spent Al's retirement bonus in a single day, as she is known to do, and Al returned to work the very next day. :-(\n\nHow realistic was that for retail employees in general during that time? I found data from [1993 Chicago](https://babel.hathitrust.org/cgi/pt?id=coo.31924071730059&view=image&seq=238), showing that retail clerks at that time had a mean weekly salary of $278. So, when you add in Al's commissions, it seems entirely realistic!\n\nJust to add in general: The minimum wage of Illinois in 1991 increased to $4.25/hour. So, again, Al's compensation on the show is very realistic. Jefferson approves!\n\nNow, the matter of the family living arrangements. We know that the Bundy family lives in a \"Chicago suburb\". The actual exterior shot of the Bundy house is taken from [641 Castlewood Ln, in Deerfield, Illinois](https://www.complex.com/style/2014/09/the-real-world-locations-of-iconic-tv-homes/married-with-children). That home sold in 1998, a year after the show went off the air, for $320,000. What's more, we know from 1990 Census data that average home costs for Deerfield, Illinois, were between $1400-$1500 per month for homeowners with a mortgage. So, unless scoring 4 touchdowns in a single game at Polk High came with a big cash bonus (and BTW that fact is extremely relevant at all times), Al wasn't mortgaging a home in Deerfield (using 30% monthly income as the \"affordability\" figure like most banks).\n\nUh oh. Not looking good we would realistically see The Dodge parked in that driveway. Historical home values from the county clerk's office suggest that was not a huge sudden increase, either. \n\nSo we know Al couldn't swing that particular house, but what about in general? The median home price in 1990 Illinois was $80,100 based on the 1990 Census. But Al didn't BUY the house in 1990. He bought the house sometime before 1987. \n\nAssuming Kelly was a child and Bud was a toddler when they bought the house, which would make sense, they could have purchased it around 1980. In 1980, the average home price in Illinois was $50,004, again using [Census data from 1980](https://www.census.gov/hhes/www/housing/census/historic/values.html). [Freddie Mac data](http://www.freddiemac.com/pmms/pmms30.html) says the average 30-year fixed mortgage rate was 13.74% that year (oof). That makes the mortgage payment $466, figuring Al scraped up a 20% down payment. We can reasonably estimate $500 with taxes and insurance.\n\nSo now, in terms of a median home price and the Bundy family's likely situation, the show makes some sense. In 1987-1997, Al would maybe be able to \"afford\" that median house he purchased in 1980, as in, make payments, but (especially if he drove most customers away with his fat jokes, and had less commission), it would be a real struggle. The struggle often portrayed by Al's frustration on the show. And why shouldn't he be frustrated? All he wants is to sit on the couch and possibly read the occasional issue of Big Uns (or potentially the special issue with 120 pages - that's 240 \"Uns\"!).\n\nPointedly, then, the show's realisticness in terms of their home and arrangements might depend on whether Al drew any income as the founder and President of the National Organization of Men Against Amazonian Masterhood.\n\nFurther reading? Kelly says reading is for girls who aren't hot. Instead, I suggest watching the show, which is available on Hulu. Grandmaster B approves.",
+            "score": 8497,
+            "date": 1589083688.0
+        },
+        {
+            "author": "CSMastermind",
+            "body": "The United States Bureau of Labor Statistics keeps track of wages for specific occupations in the country including geographic breakdowns.  We can use their data to answer your question.\n\nLooking in the `NAICS 448200 - Shoe Stores` category the closest match to \"shoe salesman\" looks to me to be [41-2031 Retail Salespersons](https://www.bls.gov/oes/current/oes412031.htm) but we can also look at some adjacent jobs like `First-Line Supervisors of Sales Workers` and `Sales Managers` to get a range depending on how loosely you want to interpret the results.\n\nBefore 1997 (the last year the show was on the air) wage data is not available on a per occupation basis through the BLS.  Reference here: https://www.bls.gov/oes/tables.htm\n\nSo let's start with 1997:\n\nSegment | Title | Total Employment | Annual Mean Wage | Annual Median Wage\n---|---|----|----|----|----\nShoe Stores | Salespersons, Retail | 129,670 | $14,144 | $12,646\n\nScreenshot of the report [here](https://i.imgur.com/aeq7uYX.png).\n\nSales Management positions can rise to $28,000 in the report.\n\nOf course, that's national data so we need to scope it to the Chicago area.  \n\nThe Chicago area report for that occupation code gives the mean value as slightly higher: $18,350 (Screenshot [here](https://i.imgur.com/vwwPQP0.png))\n\n**So it is reasonable to assume that in 1997 Al's salary would be around $18,000 +/- $5,000 depending on his specific title and how successful he personally was**.\n\nAfter taxes that would be about $13,500 / year.\n\nGiven that this is a fictional show I'm comfortable moving forward with that estimate.\n\nNow let's figure out what kind of lifestyle that yearly income would afford.\n\nThe University of Missouri has a variety of resources that are helpful [here](https://libraryguides.missouri.edu/pricesandwages/1990-1999#location) from historical rents to fuel and food prices.\n\nBased on this data and making some assumptions a reasonable guess is that Al would have paid $450 a month for his house, about $5,400 /year.  We can say that his transportation costs in car maintenance and gas would be about $2,000 / year and that the cost of feeding his family (assuming a relatively modest diet) would be about $4,000 / year. \n\nAlready we're up to about $11,000 a year.\n\nAnd then, of course, there's utility costs, clothing, entertainment, etc.\n\n_Tl;Dr: Things would have been tight in the Bundy household but passes the 'at all realistic' test if you make some very favorable assumptions about Al's spending habits, the location of his home, and his exact title and productivity at work._",
+            "score": 1752,
+            "date": 1589078468.0
+        },
+        {
+            "author": "MaroonTrojan",
+            "body": "I'd like to respond to this question from the opposite angle, which is: is it realistic that a Chicago homeowner family where the man is a retail worker would have a homemaker wife in the 1980s/1990s. The answer-- as others have pointed out-- is no. But it's interesting to look at why in the early 1990s that might have been a popular choice for a sitcom family dynamic and how Peg Bundy differed from other sitcom women of her era and those who came before her.\n\nLet's look at the original sitcom woman: Lucy. She managed to live in an apartment with wall-to-wall carpeting and fresh drapes while living on a single-income non-white entertainer's salary in the 1950s and maintaining a friendship with her landlord and his wife. Was that realistic? Probably not. But the show didn't get into the details of how they paid the bills. It presented the normalized idea that men were the breadwinners and women stayed at home and had lots of spare time to get into crazy schemes. Her schemes-- even when they were purely economical ones-- were always motivated internally. Lucy wanted fame: on television, or in the club, or in Hollywood. She never tried to advance herself to make money. Because that's not the sort of thing a (successful?) woman did.\n\nThe next relevant sitcom wife of the era was Laura Pietrie (Mary Tyler Moore on the Dick Van Dyke show). Again, here was a pretty domestic wife, now in a New York suburb instead of the city. On a few occasions she did go after money opportunities-- like appearing on a game show-- but the premise of the episode was never that the family's economic security was in doubt. Instead, the woman grasping after success was characterized as reaching at \"even more\" economic success for \"already successful\" households.\n\nIn reality, in this era, the work situation was anything but rosy or optional. Firms like Manpower and Kelly Girl were discovering the power of the female \"temp\" workforce. Why pay a full-time (male) clerk (who would expect benefits and a pension) when you could just as easily hire a Kelly Girl \"temp\" who was \"just doing this for some extra money\" and didn't have to be paid-- even thought of-- if she were sick, unavailable, or anything else. You were paying Kelly Girl, and if your usual Kelly Girl was unavailable, they'd just send a different one.\n\nThese details of women entering the workplace are detailed in TEMP by Louis Hyman, who is a labor economist at Cornell. In his book, he makes the point that in the post-war 20th Century, women were essential in establishing the idea of \"temp\" labor, and once big corporate management consultancy firms (McKinsey being the big one) figured out how much more profitable it was to hire only temp workers-- the economy was forever changed.\n\nBut the real changes in the economy were light-years ahead of what we saw on TV. In 1977 we saw the release of The Mary Tyler Moore Show: a big deal because it featured a single woman renting an apartment and holding a newspaper job on her own: contrasted by Phyllis, of course, a \"normal\" woman with a child and husband. But there was also Rhoda, Mary's \"weird\" neighbor who washed her own windows and wore trousers. Fifty years ago, these details were groundshaking.\n\nAnyway, fast forward through the series of spinoffs from the MGM TV world and Norman Lear's universe to pause briefly on Edith Bunker. Here again-- 25 years after Lucy-- was a homemaker wife who would never even DREAM of holding a job other than taking care of her husband. And suddenly-- magically-- that's what makes her ridiculous. Edith is always portrayed as the voice of... well-- if not reason-- common sense maybe. And although Archie Bunker's household is still living as if it's the 1950s... they're certainly not living as well as Lucy did in the 1950s... Meathead is not afraid to point this out. Edith is.\n\nMoving on further: the pilot of Cheers. 1980s now. Diane enters Cheers to enjoy a toast: she's just gotten engaged. But her fiancé runs off to be with his ex wife so suddenly... she needs a job? What an unusual and unexpected position for an educated white woman to be in!? She takes the job but immediately the stakes turn into a sexual ping-pong match between her and her boss. I guess the idea that she was even at the table was considered revolutionary.\n\nLater, there was Murphy Brown. She was the opposite of all these sitcom wives: married to her career. Sexless. But a woman! And hot! The writers couldn't resist and eventually a pregnancy story got built into the show, which Dan Quayle-- Vice-President-at-the-Time who once spelled potato wrong and for a brief period of time that's the stupidest we thought Republicans could ever be-- took great offense to. Anyway he tried to burn Murphy Brown but historically speaking he was too stupid to and failed. The show carried on for several seasons including Murphy once stealing the 'T' off TRUMP Tower but the point was always that she was some sort of exceptional, outsize woman, not anybody normal. A woman, but not a wife. This was new and revolutionary.\n\nSo we've reached Peg Bundy. After generations where the hits had sterling, strong wives: why was she a bon-bon eating, stay at home manicurist? And why was it so successful? Well... in a weird way... because it was new. As much as these outsider perspectives on women in television had on women making advancements in the field of women's equality, there were still lots of places in America (and then later, the rest of the world) where women had NOT seen the sort of economic and labor equalizing forces that defined the 20th Century. \n\nMarried With Children became a huge international hit. In Russia it aired five nights a week: they recreated the entire English language series, then commissioned the original American writing staff to write an entire extra season that would air in Russia (and then get re-broadcast in Ukraine, Poland, etc.). \n\nMy point is that since there was such a social incentive to make the point that your wife didn't \"need\" to work, she just did to \"get out of the house\" or whatever, the idea of working women wasn't normalized on television until the late 90s, when Al Bundy: supporter of a decadent wife and even more decadent children became the face of \"enough is enough\". Men saw-- through Al Bundy-- an economy that had long ceased to exist (a single male breadwinner; no education but the expectation is to put the kids through college) and didn't get the joke. You're out here checking Chicago real estate prices instead of asking the bigger question: were single-income retail families viable in the 1990s? No. They were not. \n\nWhat this meant for women was especially tough. There was a tacit understanding that going to work was something \"everyone was doing\" but was also \"not normal\". That can't hold for long. In the  late 90s and early 00s we see and justify women working (in general) with them excelling in female-driven careers: Monica is a chef; Rachel is a personal shopper at Bloomingdales. We've since moved on from a family dynamic in the Chicago suburbs and are looking at a sitcom area dominated by childless attractive people unstressed by the worries that 9/11 might convey.\n\nAnd we've been carrying forward our unwillingness to confront those troubles for 20 years now. \n\nI am struggling to imagine a broadly successful sitcom pilot in which we don't ask the question, \"but why does the wife have a job?\" The best answer might be Modern Family. That pilot aired in 2009, and still, the answer was *because she works for her dad*. \n\nThe good question isn't 'why doesn't Peg Bundy have a job in the early 90's'. The good question is \"why, in the early 90's, would we look at Peg Bundy and assume she's real?\" That question has everything to do with a calculated effort to denormalize women as equal contributors to the household and hypernormalize the male breadwinner at a time when it was so anti-normal that we were there to laugh at it. As we're seeing now: people adhere to old visions of society until a big impact occasion forces them to change focus.",
+            "score": 50,
+            "date": 1589186845.0
+        },
+        {
+            "author": "mimicofmodes",
+            "body": "Hello everyone, \n\nIf you are a first time visitor, welcome! This thread is trending high right now and getting a lot of attention, but it is important to remember those upvotes represent interest in the question itself, and [it can often take time for a good answer to be written](/r/AskHistorians/comments/7s66yf/a_statistical_look_at_askhistorians_in_2017_part_i/). The mission of /r/AskHistorians is to provide users with **in-depth and comprehensive responses**, and our [rules](/r/AskHistorians/wiki/rules) are intended to facilitate that purpose. We have removed many comments which don't follow them, mostly because they're personal anecdotes, speculation, links to inflation calculators, and jokes. Making comments asking about the removed comments simply compounds this issue. So please, before you try your hand at posting, check out the [rules](/r/AskHistorians/wiki/rules), as we don't want to have to warn you further.\n\nOf course, we know that it can be frustrating to come in here from your frontpage or /r/all and see only *[removed]*, but we thank you for your patience. If you want to be reminded to come check back later, or simply find other great content to read while you wait, [this thread](/r/AskHistorians/comments/8p0s9b/roundtable_21_be_kindremind_the_mod_approved/) provides a guide to a number of ways to do so, including the RemindMeBot- [**Click Here to Subscribe**](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5Bhttp%3A%2F%2FLINK-HERE%2F%5D%0A%0ARemindMe!++2+days) - or\nour [Twitter](http://twitter.com/askhistorians).\n\nFinally, while we always appreciate feedback, it is unfair to the OP to further derail this thread with META conversation, so if anyone has further questions or concerns, I would ask that they be directed to [modmail](http://www.reddit.com/message/compose?to=%2Fr%2FAskHistorians&subject=Question%20Regarding%20Rules), or a [META thread](http://www.reddit.com/r/AskHistorians/submit?selftext=true&title=[META]). Thank you!",
+            "score": 1,
+            "date": 1589077419.0
+        },
+        {
+            "author": "Deleted",
+            "body": "[removed]",
+            "score": 5,
+            "date": 1589067690.0
+        },
+        {
+            "author": "Deleted",
+            "body": "[removed]",
+            "score": -22,
+            "date": 1589065894.0
+        },
+        {
+            "author": "Deleted",
+            "body": "[removed]",
+            "score": -10,
+            "date": 1589067738.0
+        },
+        {
+            "author": "Deleted",
+            "body": "[deleted]",
+            "score": 2830,
+            "date": 1589102228.0
+        },
+        {
+            "author": "OffsidesLikeWorf",
+            "body": "Great reply, thanks so much! Looks like Al could barely afford his membership in NOMAAM, what with all his expenses!",
+            "score": 127,
+            "date": 1589123761.0
+        },
+        {
+            "author": "randuser",
+            "body": "This was a delightful breakdown",
+            "score": 280,
+            "date": 1589087529.0
+        },
+        {
+            "author": "Blackstiers",
+            "body": "So do you think his salary has not changed from 1980 to 1997? As you said he mentioned his salary in S07, meaning around 1994. Was it realistic that he earned the same in 1980?",
+            "score": 59,
+            "date": 1589100747.0
+        },
+        {
+            "author": "iil1ill",
+            "body": "The most horribly accurate data for a fictitious based question ive seen in a long time. If ever. And no, not just on this sub. \n\nJust.....thank you. Not sure what else i can say at this point.",
+            "score": 403,
+            "date": 1589094626.0
+        },
+        {
+            "author": "fuho",
+            "body": "This is glorious! Thank you.",
+            "score": 261,
+            "date": 1589087251.0
+        },
+        {
+            "author": "Calleca",
+            "body": "This deserves a \"Whoa, Bundy.\"",
+            "score": 74,
+            "date": 1589095125.0
+        },
+        {
+            "author": "I_HATE_THIS_LIFE",
+            "body": "Amazing answer! Thanks for breaking it all down!",
+            "score": 66,
+            "date": 1589091005.0
+        },
+        {
+            "author": "Unlimited_Bacon",
+            "body": ">Freddie Mac data says the average 30-year fixed mortgage rate was 13.74% [in 1980] (oof).\n\nWas 1980 a particularly bad year? Would anything substantially change if it had been purchased a few years earlier or later?",
+            "score": 29,
+            "date": 1589090732.0
+        },
+        {
+            "author": "JaySone",
+            "body": "Thanks for sharing!  This made my morning! Loved that show -- 4 TDs in 1 game!",
+            "score": 15,
+            "date": 1589123744.0
+        },
+        {
+            "author": "ult_avatar",
+            "body": "This is bestof material",
+            "score": 64,
+            "date": 1589095389.0
+        },
+        {
+            "author": "schaefferBMW",
+            "body": "Amazing response. Long live Alfredo the tongueless man!",
+            "score": 8,
+            "date": 1589120727.0
+        },
+        {
+            "author": "ThisFreaknGuy",
+            "body": "This truly was your moment!",
+            "score": 21,
+            "date": 1589107767.0
+        }
+    ]
+}
