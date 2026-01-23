@@ -1,0 +1,6 @@
+loc_spanish_city.lst:location:city
+spanish_firstname.lst:person_first
+surname.lst:surname
+month.lst:date:month
+day.lst:date:day
+determiner.lst:determiner
