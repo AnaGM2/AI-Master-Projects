@@ -1,0 +1,33 @@
+-- Descripción del dataset
+
+El dataset recoge datos sobre la calidad del agua en los rios. Cada muestra incluye
+los valores medidos de dieciséis parámetros diferentes: 
+-  temperatura del agua (temp)
+-  alcalinidad (pH)
+-  conductividad eléctrica (conductividad)
+-  oxígeno disuelto (O2)
+-  saturación de oxígeno (o2sat)
+-  concentración de CO2 (co2)
+-  dureza del agua (dureza)
+-  dinitrogeno(no2)
+-  amoniaco (no3)
+-  amonio (nh4)
+-  otrofosfato(po4)
+-  concentración de cloro (cl)
+-  Cantidad de sílice (sio2)
+-  Permanganato de Potasio (mno4)
+-  dicromato de potasio (k2cr2o7)
+-  demanda biológica de oxígeno (bod)
+
+En cada muestra se identifican un total de 14 taxones que pueden estar presentes. Así cada muestra 
+tiene un valor multi-etiqueta que identifica la presencia (1) o ausencia de cada uno de los 14 taxones.
+Los taxones están enumedarados del 1 al 14 (t1, .., t14).
+ 
+El objetivo de este dataset es clasificar partiendo de las variables de entrada e identificar
+que taxones están o no presentes según las características de las muestra.
+
+
+
+
+
+
