@@ -1,0 +1,23 @@
+-- Descripción del dataset
+
+El dataset tarjeta crédito recoge variables de clientes para determinar si se les concede o no
+ una tarjeta de crédito a usuarios de un banco. El datasets cuenta con 15 atributos con nombres
+ ficticios para preservar la identidad de las personas. Estos atributos son:
+- D1 nominal
+- D2 numérica
+- D3 numérica
+- D4 nominal
+- D5 nominal
+- D6 nominal
+- D7 nominal
+- D8 numérica
+- D9 nominal
+- D10 nominal
+- D11 numérica
+- D12 nominal
+- D13 nominal
+- D14 numérica
+- D15 numérica
+
+El atributo obetivo es concecido que indica si se ha concedido o no el crédito.
+Hay atributos que tienen valores missing representados con una ?.
