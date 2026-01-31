@@ -1,0 +1,4 @@
+Tipo,Train,Train,Train,Test,Test,Test
+Modelo,RF,SVM,MLP,RF,SVM,MLP
+Metrica,,,,,,
+Todos los atributos,1.0,0.7895,1.0,0.7273,0.5758,0.8182
