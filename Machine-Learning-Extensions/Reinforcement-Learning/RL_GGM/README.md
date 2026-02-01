@@ -16,10 +16,10 @@ It contains an experiment report in ``.pdf`` format and other ``.py`` and ``.ipy
 - /src/  $\hspace{0.42 cm}$ Contains the python scripts ``.py``, organized into the following subfolders:
   
   - ./agents/ $\hspace{0.2 cm}$ --> $\hspace{0.15 cm}$ Here we find the different classes developed to model the agents
-  - ./memories/ $\hspace{1.2 cm}$ --> $\hspace{0.15 cm}$ Here we find a class developed to model a memory for Deep Q-Learning
-  - ./networks/ $\hspace{0.65 cm}$ --> $\hspace{0.15 cm}$ Here we find a script with the neural network used in Deep Q-Learning
-  - ./policies/ $\hspace{0.65 cm}$ --> $\hspace{0.15 cm}$ Here we find the decision policies used by the agents
-  - ./wrappers/ $\hspace{0.65 cm}$ --> $\hspace{0.15 cm}$ Here we find the implementation of various wrappers for the environments used
+  - ./memories/ $\hspace{0.2 cm}$ --> $\hspace{0.15 cm}$ Here we find a class developed to model a memory for Deep Q-Learning
+  - ./networks/ $\hspace{0.2 cm}$ --> $\hspace{0.15 cm}$ Here we find a script with the neural network used in Deep Q-Learning
+  - ./policies/ $\hspace{0.2 cm}$ --> $\hspace{0.15 cm}$ Here we find the decision policies used by the agents
+  - ./wrappers/ $\hspace{0.2 cm}$ --> $\hspace{0.15 cm}$ Here we find the implementation of various wrappers for the environments used
 
 ## Installation and Use
 Through ``main.ipynb``, you can navigate between the different notebooks contained in this repository simply by clicking the links provided there (see section **[2]**).
