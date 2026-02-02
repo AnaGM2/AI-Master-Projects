@@ -1,11 +1,13 @@
-# Machine Learning Explicable. Proyecto práctico.
-En este trabajo aplicamos métodos de explicación a modelos de clasificación para la predicción del éxito académico de estudiantes universitarios.
+# Explainable Machine Learning. Practical Project.
+In this work, we apply explanation methods to classification models for predicting the academic success of university students.
 
-## Autores:
+## Authors:
 **José María García Ortiz, Ana Gil Molina, Domingo Méndez García, Santiago Méndez García.**
 
-**Máster en Inteligencia Artificial. Universidad de Murcia.**
+**Master’s in Artificial Intelligence. University of Murcia.**
 
-# Sugerencias para la corrección
-- El orden de lectura recomendado es comenzando por ``main.ipynb``, siguiendo ``dt.ipynb``, luego ``svm.ipynb`` y finalmente ``xgboost.ipynb``, todo ello contenido en la carpeta ``src``.
-- Si se desea ejecutar las notebooks, recomendamos el uso de Google colab para garantizar la compatibilidad de todas las librerías.
+---
+
+# Suggestions
+- The recommended reading order starts with ``main.ipynb``, followed by ``dt.ipynb``, then ``svm.ipynb``, and finally ``xgboost.ipynb``, all of which are located in the ``src`` folder.
+- If you wish to run the notebooks, we recommend using Google Colab to ensure compatibility with all libraries.
