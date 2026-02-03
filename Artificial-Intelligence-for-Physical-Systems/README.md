@@ -29,7 +29,7 @@ This repository explores the implementation of autonomous behaviors for robots i
 ## Repository Contents
 * `Exercise-1/2/3/`: Source code (.java, .class, .arch) and **simulation videos** for each scenario.
 * `iasf.b_fuzzy_sets.ipynb`: Python notebook visualizing the membership functions used in the robot's logic.
-* `memoria.pdf`: Comprehensive documentation of the architectures, experiments, and results.
+* `memoria.pdf`: Final report documenting the architectures, experiments, and results.
 
 ## AI Relevance
 * **Hybrid Architectures:** Understanding the balance between low-level reaction and high-level planning.
