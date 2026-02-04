@@ -26,7 +26,15 @@ This repository contains five comprehensive projects covering the fundamental an
 
 ## Tech Stack
 * **Language:** Python
-* **Key Libraries:** OpenCV, NumPy, Matplotlib, PyTorch/TensorFlow.
+* **Format:** Jupyter Notebooks
+
+### Key Libraries
+* **Core Computer Vision:** OpenCV (cv2), Scikit-Image (skimage) (transform, filters, morphology, restoration).
+* **Deep Learning & AI:** TensorFlow, Keras, PyTorch, TensorFlow Hub, Ultralytics YOLO (Object Detection).
+* **Machine Learning & Analytics:** Scikit-Learn (sklearn) (RANSAC, Logistic Regression, Train/Test Split, Standard Scaler).
+* **Numerical & Scientific Computing:** NumPy, SciPy (ndimage), SymPy (Symbolic math), Math.
+* **Visualization & Interaction:** Matplotlib, MPLD3 (Notebook interactivity), IPython.display, PIL (Pillow).
+* **GUI & Widgets:** Ipywidgets (Sliders, Checkboxes, Buttons for interactive simulations).
 
 ## AI Relevance
 * **Robotics & Navigation:** Stereo vision and RANSAC are essential for spatial awareness.
