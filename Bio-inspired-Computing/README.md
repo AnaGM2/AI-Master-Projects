@@ -25,8 +25,7 @@ Design and implementation of an Evolutionary Algorithm as a search strategy for 
 
 ## Tech Stack
 * **Language:** Python
-* * **Format:** Jupyter Notebooks (.ipynb).
-* **Key Libraries:** `NumPy`, `Matplotlib`, `Pandas`.
+* * **Format:** Jupyter Notebooks (.ipynb)
 
 ## Repository Contents
 * `Class-Practices/`: Quick exercises & Notebooks solved during classes.
