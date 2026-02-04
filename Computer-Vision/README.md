@@ -1,6 +1,6 @@
 # Computer Vision
 
-This repository contains five comprehensive projects covering the fundamental and advanced techniques of Computer Vision. Each module solves a set of challenges ranging from image geometry to neural-based perception.
+This repository contains five comprehensive projects covering the fundamental and advanced techniques of Computer Vision. Each module solves a set of challenges ranging from image geometry to neural-based perception. Notebooks are optimized for Google Colab
 
 ## Projects Overview
 
