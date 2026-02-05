@@ -25,7 +25,7 @@ Predicting Nitrogen Oxide (NOx) levels with a **7-day horizon** using a multi-ye
 
 ## Tech Stack
 * **Language:** Python.
-* **Libraries:** `Scikit-learn`, `XGBoost`, `LightGBM`, `Pandas`, `Matplotlib`, `Seaborn`.
+* **Libraries:** `Scikit-learn`, `XGBoost`, `Pandas`, `Matplotlib`, `Seaborn`.
 
 
 ## AI Relevance
