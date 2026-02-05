@@ -10,8 +10,6 @@ Three distinct challenges aimed at mastering specific data issues:
  3. Ensemble Learning (Credit Card Approval) Building a high-performance model for credit risk assessment, using Ensemble methods.
 
 
----
-
 ## Practice 2: Multivariate Time Series Forecasting (NOx)
 Predicting Nitrogen Oxide (NOx) levels with a **7-day horizon** using a multi-year sensor dataset (2017-2022).
 
