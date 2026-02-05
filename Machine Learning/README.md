@@ -5,18 +5,9 @@ This repository contains two major practical projects focusing on solving comple
 ## Practice 1: Advanced Classification Tasks
 Three distinct challenges aimed at mastering specific data issues:
 
-### 1. Imbalanced Data (CocheRadar)
-* **Challenge:** High class imbalance in vehicle identification (Car vs. Other).
-* **Techniques:** Application of resampling methods (SMOTE, Under/Over-sampling) and robust metrics like F1-Score and AUC-ROC to handle skewed distributions.
-
-### 2. Multi-label Classification (Water Quality)
-* **Challenge:** Predicting multiple taxa present in a single water sample simultaneously.
-* **Techniques:** Implementation of Problem Transformation (Binary Relevance, Classifier Chains) and Algorithm Adaptation methods.
-
-### 3. Ensemble Learning (Credit Card Approval)
-* **Challenge:** Building a high-performance model for credit risk assessment.
-* **Techniques:** Comparison between classic classifiers and **Ensemble Methods** (Random Forest, Gradient Boosting, XGBoost).
-
+ 1. Imbalanced Data (CocheRadar): High class imbalance in vehicle identification (Car vs. Other).
+ 2. Multi-label Classification (Water Quality): Predicting multiple taxa present in a single water sample simultaneously.
+ 3. Ensemble Learning (Credit Card Approval) Building a high-performance model for credit risk assessment, using Ensemble methods.
 
 
 ---
@@ -38,4 +29,4 @@ Predicting Nitrogen Oxide (NOx) levels with a **7-day horizon** using a multi-ye
 
 
 ## AI Relevance
-This course bridges the gap between academic theory and industrial application by focusing on **Explainability and Problem-Solving** (why a model works and how to fix data leakage or overfitting) rather than just "accuracy chasing".
+This course bridges the gap between academic theory and industrial application by focusing on **Explainability and Problem-Solving** rather than just chasing accuracy.
