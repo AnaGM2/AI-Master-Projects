@@ -14,7 +14,7 @@ This repository explores how AI models handle imprecise, uncertain, and structur
 ### Chapter 3. Fuzzy Logic: Holdridge Life Zones Zonifier
 * **Project:** A fuzzy expert system that determines the **Holdridge Life Zone** of any point on Earth based on bioclimatic data.
 * **Tasks:**
-    * Design of membership functions for climate variables (Biotemperature, Precipitation, Humidity).
+    * Design of membership functions for climate variables (Biotemperature, Precipitation...).
     * Implementation of a fuzzy inference system in Python.
     * **Visualization:** Generation of colored maps representing ecological zones from weather station datasets.
 
