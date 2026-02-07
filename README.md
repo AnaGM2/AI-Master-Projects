@@ -1,5 +1,3 @@
-# AI-Master-Projects
-
 # Master's Degree in Artificial Intelligence
 
 This repository serves as an archive of the laboratory work and computational projects completed during my **Master's Degree in Artificial Intelligence**.
@@ -12,13 +10,17 @@ The repository is organized by subject where I applied different AI techniques u
 
 Throughout the degree, I utilized a diverse set of tools to create the executable code and computational applications:
 
-* **Programming & Scripting:** Python, R, Octave, SQL, HTML
+* **Programming & Scripting:** Python, Java
 
-* **Data Analysis & Visualization:** Excel, Power BI, GeoGebra
+* **Data Analysis & Machine Learning:** Orange Data Mining, FID3.5 (Fuzzy Induction of Decision Trees)
 
-* **Specialized Mathematical Software:** GAP (Groups, Algorithms, Programming)
+* **Natural Language Processing & Semantics:** Hugging Face (Transformers), Protégé, BabelNet API
 
-* **Documentation & Reproducible Research:** LaTeX, Markdown, R Markdown, Jupyter Notebooks
+* **Advanced AI (RL & Federated Learning):** Gymnasium (Reinforcement Learning), Nebula (Federated Learning framework)
+
+* **Simulation & Architecture:** ThinkingCap-II (Java-based), Virtual Machines (Distributed simulation)
+
+* **APIs & Documentation:** Reddit API (PRAW), Jupyter Notebooks
 
 ## How to Navigate
 
