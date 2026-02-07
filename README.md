@@ -24,5 +24,5 @@ Throughout the degree, I utilized a diverse set of tools to create the executabl
 
 ## How to Navigate
 
-  1. Select a Subject Folder (e.g., `Machine Learning/`).
+  1. Select a Subject Folder (e.g., `Computer-Vision/`).
   3. Read the local `README.md` within that folder for specific instructions on how to run the code and the context of the projects.
