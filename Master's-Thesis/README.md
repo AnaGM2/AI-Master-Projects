@@ -11,3 +11,8 @@ Subsequently, experiments and simulations are conducted across four classic stra
 Finally, the results are discussed, and conclusions are drawn regarding the efficacy and applicability of the studied techniques. The appendices include details on the Python implementation of the algorithms, selection policies, games, and the debugging tool.
 
 Ultimately, this work delves into the field of Artificial Intelligence applied to strategy games and provides relevant results concerning their development and evaluation.
+
+### Tech Stack
+
+* **Language:** Python.
+* **Format:** Jupyter Notebooks (.ipynb)
